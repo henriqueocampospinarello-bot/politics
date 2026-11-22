@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+
+<html data-theme="claro" lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#ffffff" name="theme-color"/>
+<meta content="Pesquisa de Educação Física sobre políticas de combate ao racismo no esporte e legislação brasileira." name="description"/>
+<title>Políticas de Combate ao Racismo no Esporte</title>
+<style>/* Layout editorial leve: leitura longa com hierarquia visual discreta. */
+:root {
+  color-scheme: light;
+  --bg: #f6f6f6; --paper: #ffffff; --muted: #fafafa;
+  --ink: #2a2a2d; --heading: #1f2024; --secondary: #666970;
+  --border: #dedfe2; --accent: #ad263e; --accent-hover: #871a30;
+  --control: #ffffff; --reader-scale: 1; --base-size: 18px;
+}
+:root[data-theme="escuro"] {
+  color-scheme: dark;
+  --bg: #151518; --paper: #1c1c20; --muted: #222226;
+  --ink: #e5e3e5; --heading: #f6f5f6; --secondary: #b6b2b8;
+  --border: #38383c; --accent: #ec5b6e; --accent-hover: #ff7b8d;
+  --control: #28282d;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 86px; }
+body { margin: 0; min-width: 0; overflow-x: clip; background: var(--bg); color: var(--ink); font-family: Aptos, 'Segoe UI', system-ui, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+button { font: inherit; cursor: pointer; -webkit-tap-highlight-color: transparent; }
+button:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.skip-link { position: fixed; top: -120px; left: 12px; z-index: 50; background: var(--paper); color: var(--heading); padding: 10px 14px; }
+.skip-link:focus { top: 12px; }
+.reading-track { position: fixed; top: 0; left: 0; right: 0; height: 3px; z-index: 40; }
+.reading-bar { width: 0; height: 100%; background: var(--accent); }
+.toolbar-wrap { position: sticky; top: 0; z-index: 30; background: var(--paper); border-bottom: 1px solid var(--border); }
+.toolbar { width: 94%; max-width: 1950px; min-height: 62px; margin: auto; display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+.reading-status { font-size: 12px; color: var(--secondary); white-space: nowrap; }
+.actions { display: flex; align-items: center; gap: 10px; margin-left: auto; }
+.font-controls { display: inline-flex; border: 1px solid var(--border); border-radius: 6px; overflow: hidden; background: var(--control); }
+.control { color: var(--ink); background: transparent; border: 0; min-height: 40px; padding: 7px 12px; transition: background .16s ease, color .16s ease; }
+.control:hover:not(:disabled) { background: var(--muted); color: var(--accent); }
+.control:disabled { opacity: .38; cursor: not-allowed; }
+.control.font { font-size: 16px; font-weight: 700; min-width: 42px; }
+.control.reset { min-width: 59px; color: var(--secondary); font-size: 13px; border-left: 1px solid var(--border); border-right: 1px solid var(--border); font-variant-numeric: tabular-nums; }
+.control.theme { min-height: 42px; display: flex; align-items: center; gap: 7px; border: 1px solid var(--border); border-radius: 6px; padding: 6px 13px; background: var(--control); font-size: 13px; }
+.theme-icon { font-size: 20px; line-height: 1; color: var(--accent); }
+.site-main { padding: 26px 0 65px; }
+.article { width: 94%; max-width: 1950px; margin: auto; padding: 0 clamp(18px, 2.5vw, 48px) 66px; background: var(--paper); border: 1px solid var(--border); border-radius: 8px; font-size: calc(var(--base-size) * var(--reader-scale)); line-height: 2; overflow-wrap: break-word; }
+.hero { text-align: center; padding: clamp(54px, 6.5vw, 88px) 12px clamp(43px, 5vw, 65px); }
+.article h1 { color: var(--heading); font-size: clamp(2.0em, 3.8vw, 2.7em); line-height: 1.18; font-weight: 760; max-width: 28ch; margin: 0 auto; letter-spacing: -.03em; text-wrap: balance; hyphens: none; }
+.article-section { border-top: 1px solid var(--border); padding: 46px 0 36px; scroll-margin-top: 85px; }
+.article h2 { margin: .1em 0 1em; color: var(--heading); font-size: 1.52em; font-weight: 740; line-height: 1.4; letter-spacing: -.014em; text-align: left; hyphens: none; text-wrap: balance; }
+.article h2::after { content: ''; display: block; margin-top: .43em; width: 44px; height: 2px; background: var(--accent); }
+.article h3 { margin: 1.65em 0 .72em; color: var(--heading); font-size: 1.15em; line-height: 1.45; font-weight: 730; text-align: left; hyphens: none; text-wrap: balance; }
+.article p, .article li { text-align: justify; text-align-last: left; hyphens: auto; -webkit-hyphens: auto; overflow-wrap: break-word; word-break: normal; line-height: 2; }
+.article p { margin: 0 0 1.12em; }
+.article ul { padding-left: 1.42em; margin: .65em 0 .95em; }
+.article li { margin: .32em 0; padding-left: .1em; }
+.article li::marker { color: var(--accent); }
+.article strong { color: var(--heading); font-weight: 720; }
+.article a { color: var(--accent); text-decoration: underline; text-decoration-color: color-mix(in srgb, var(--accent), transparent 58%); text-underline-offset: .2em; overflow-wrap: anywhere; }
+.article a:hover { color: var(--accent-hover); text-decoration-color: currentColor; }
+.article .source-line { color: var(--secondary); font-size: .87em; padding-left: .75em; margin: 1.15em 0 1.55em; border-left: 2px solid var(--border); }
+.article .source-line strong { color: var(--secondary); }
+.policy-heading { color: var(--heading); font-size: 1.03em; font-weight: 700; line-height: 1.55; margin: 1.65em 0 .6em; text-align: left; }
+.law-card { border-left: 3px solid var(--accent); background: var(--muted); padding: 1em 1.15em .92em; margin: 1.55em 0; }
+.law-card h3 { margin: 0 0 .65em; }
+.law-card p:last-child { margin-bottom: 0; }
+.law-card .source-line { margin-top: 1.18em; }
+.conclusion-card { border-left: 3px solid var(--border); padding: .65em 1em .45em; margin: 1.65em 0; }
+.conclusion-card h3 { margin-top: 0; }
+.closing-note { margin: .9em 0; }
+.article-section[data-chapter="06"] p { padding: 0 0 .6em; border-bottom: 1px solid var(--border); margin-bottom: .6em; }
+.article-section[data-chapter="06"] p:last-child { border: 0; }
+.article-section[data-chapter="07"] { padding-bottom: 0; }
+.back-to-top { position: fixed; right: 22px; bottom: 20px; z-index: 25; width: 46px; height: 46px; border-radius: 50%; background: var(--paper); color: var(--accent); border: 1px solid var(--border); font-size: 22px; line-height: 1; box-shadow: 0 3px 12px rgba(0,0,0,.10); opacity: 0; visibility: hidden; transform: translateY(6px); transition: opacity .18s, transform .18s, visibility .18s; }
+.back-to-top.is-visible { opacity: 1; visibility: visible; transform: translateY(0); }
+.back-to-top:hover { background: var(--muted); }
+/* Blocos de leitura separados em qualquer tamanho de tela. */
+.article .responsive-paragraph .reading-chunk { display: block; text-align: justify; text-align-last: left; hyphens: auto; -webkit-hyphens: auto; }
+.article .responsive-paragraph .reading-chunk + .reading-chunk { margin-top: .88em; }
+@media (max-width: 700px) {
+  .article .responsive-paragraph .reading-chunk + .reading-chunk { margin-top: .78em; }
+  :root { --base-size: 16px; }
+  .toolbar { width: calc(100% - 26px); min-height: 58px; }
+  .reading-status { display: none; }
+  .actions { gap: 7px; }
+  .control { min-height: 38px; padding: 6px 9px; }
+  .control.font { min-width: 34px; font-size: 15px; }
+  .control.reset { min-width: 50px; font-size: 11px; }
+  .control.theme { min-height: 40px; padding: 6px 10px; }
+  .control.theme .theme-text { display: none; }
+  .site-main { padding: 11px 0 36px; }
+  .article { width: calc(100% - 16px); padding: 0 14px 35px; border-radius: 5px; }
+  .hero { padding: 49px 0 40px; }
+  .article h1 { font-size: clamp(1.82em, 7.3vw, 2.3em); }
+  .article-section { padding: 35px 0 26px; }
+  .article h2 { font-size: 1.34em; }
+  .article h3 { font-size: 1.12em; }
+  .law-card { padding: .9em .85em .8em; margin: 1.35em 0; }
+  .article .source-line { padding-left: .45em; }
+  .back-to-top { right: 10px; bottom: 12px; width: 41px; height: 41px; }
+}
+@media (max-width: 340px) { .article {padding-left: 11px; padding-right: 11px;} .control.theme {padding-left:7px;padding-right:7px;} }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *,*::before,*::after { transition: none !important; animation: none !important; } }
+@media print { :root,:root[data-theme="escuro"] {--bg:#fff;--paper:#fff;--muted:#fff;--ink:#111;--heading:#111;--secondary:#444;--border:#ddd;--accent:#555;} .toolbar-wrap,.reading-track,.skip-link,.back-to-top{display:none!important;} .site-main{padding:0;} .article{width:100%;max-width:none;border:0;padding:0;font-size:11pt;line-height:2;} .article p,.article li{line-height:2;} .hero{padding:10mm 0;} .article h1{font-size:23pt;} .article h2{font-size:15pt;} .article h3{font-size:12pt;} .article h2,.article h3{break-after:avoid;} .article p,.article li{orphans:3;widows:3;} .law-card,.conclusion-card{break-inside:avoid;} a{color:#333!important;} }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+<div aria-label="Progresso de leitura" aria-valuemax="100" aria-valuemin="0" aria-valuenow="0" class="reading-track" id="reading-track" role="progressbar"><div class="reading-bar" id="reading-bar"></div></div>
+<header class="toolbar-wrap">
+<div class="toolbar">
+<div aria-live="off" class="reading-status"><span id="section-status">Seção 1 de 7</span></div>
+<div aria-label="Ajustes de leitura" class="actions" role="group">
+<div aria-label="Tamanho do texto" class="font-controls" role="group">
+<button aria-label="Diminuir o texto" class="control font" id="font-decrease" title="Diminuir fonte" type="button">A−</button>
+<button class="control reset" id="font-reset" title="Restaurar tamanho original" type="button">100%</button>
+<button aria-label="Aumentar o texto" class="control font" id="font-increase" title="Aumentar fonte" type="button">A+</button>
+</div>
+<button aria-label="Ativar tema escuro" aria-pressed="false" class="control theme" id="theme-button" type="button"><span aria-hidden="true" class="theme-icon" id="theme-icon">☾</span><span class="theme-text" id="theme-label">Escuro</span></button>
+</div>
+</div>
+</header>
+<main class="site-main">
+<article aria-label="Pesquisa" class="article" id="conteudo"><header class="hero"><h1>Políticas de Combate ao Racismo no Esporte</h1></header><section aria-label="Seção 1 de 7" class="article-section" data-chapter="01" id="secao-1"><h2 class="section-heading">1. O racismo no esporte: um problema que ainda existe</h2><p class="responsive-paragraph"><span class="reading-chunk">O esporte reúne pessoas de diferentes culturas, origens e histórias. É um espaço de competição, superação e convivência, mas também pode apresentar problemas que existem na sociedade, como o racismo.</span> <span class="reading-chunk">O racismo no esporte acontece quando alguém sofre discriminação por sua cor de pele, raça ou origem étnica. Isso pode ocorrer por meio de ofensas, comentários preconceituosos, exclusão de atividades ou tratamento desigual.</span> <span class="reading-chunk">Essas atitudes prejudicam as vítimas e podem afetar sua confiança, saúde emocional e oportunidades de desenvolvimento. No Brasil, o problema está relacionado a uma história de escravidão, preconceito e desigualdades raciais que ainda deixam consequências na sociedade.</span> <span class="reading-chunk">Por isso, combater o racismo no esporte também significa enfrentar essas desigualdades. <strong>Mas o que pode ser feito para mudar essa realidade?</strong> Uma das principais respostas está nas leis e políticas públicas, que procuram proteger as pessoas, prevenir a discriminação e responsabilizar aqueles que praticam atos racistas.</span></p><p class="source-line"><strong>Fonte:</strong> <a href="https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12288.htm" rel="noopener noreferrer" target="_blank" title="Abrir fonte em nova aba">Brasil: Estatuto da Igualdade Racial</a>.</p></section><section aria-label="Seção 2 de 7" class="article-section" data-chapter="02" id="secao-2"><h2 class="section-heading">2. A história da luta contra o racismo no esporte</h2><p class="responsive-paragraph"><span class="reading-chunk">A luta contra o racismo no esporte faz parte de uma história maior de conquista de direitos. Durante muito tempo, pessoas negras enfrentaram dificuldades para participar de clubes, competições e outras atividades esportivas, devido ao preconceito e às desigualdades sociais.</span> <span class="reading-chunk">Com o passar dos anos, atletas, movimentos sociais e organizações começaram a denunciar essas situações e exigir mudanças. Essa mobilização contribuiu para ampliar o debate sobre a discriminação racial e a necessidade de medidas de proteção. No Brasil, algumas conquistas legais marcaram essa trajetória:</span></p><ul>
+<li><strong>1989:</strong> criação da Lei do Racismo, que estabeleceu punições para diferentes práticas de discriminação racial.</li>
+<li><strong>2010:</strong> criação do Estatuto da Igualdade Racial, que busca ampliar oportunidades e combater desigualdades, inclusive no esporte e no lazer.</li>
+<li><strong>2023:</strong> aprovação de mudanças na legislação sobre injúria racial e criação da Lei Geral do Esporte, fortalecendo a proteção de direitos no ambiente esportivo.</li>
+</ul><p>Esses acontecimentos mostram que o combate ao racismo passou a receber maior atenção nas leis brasileiras. Entretanto, mesmo depois dessas conquistas, a discriminação continua existindo, o que demonstra a importância de transformar os direitos previstos na legislação em mudanças reais.</p><p class="source-line"><strong>Fontes:</strong> <a href="https://www.planalto.gov.br/ccivil_03/leis/l7716.htm" rel="noopener noreferrer" target="_blank" title="Abrir fonte em nova aba">Lei do Racismo</a>, <a href="https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12288.htm" rel="noopener noreferrer" target="_blank" title="Abrir fonte em nova aba">Estatuto da Igualdade Racial</a>, <a href="https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14532.htm" rel="noopener noreferrer" target="_blank" title="Abrir fonte em nova aba">Legislação sobre Injúria Racial</a> e <a href="https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14597.htm" rel="noopener noreferrer" target="_blank" title="Abrir fonte em nova aba">Lei Geral do Esporte</a>.</p></section><section aria-label="Seção 3 de 7" class="article-section" data-chapter="03" id="secao-3"><h2 class="section-heading">3. As leis brasileiras de combate ao racismo no esporte</h2><p>No Brasil, o racismo é crime, e existem leis que estabelecem direitos, proíbem atitudes discriminatórias e determinam punições para os responsáveis. Essas normas também se aplicam ao ambiente esportivo, independentemente da modalidade praticada.</p><div class="law-card"><h3 class="subheading">Lei do Racismo</h3><p class="responsive-paragraph"><span class="reading-chunk">A Lei do Racismo estabelece punições para diferentes formas de discriminação racial. Entre as situações previstas, está impedir que uma pessoa tenha acesso a estabelecimentos esportivos ou clubes sociais abertos ao público por motivos raciais.</span> <span class="reading-chunk"><strong>Por que é importante?</strong> Porque protege o direito das pessoas de frequentar espaços e participar de atividades sem sofrer discriminação racial.</span></p><p class="source-line"><strong>Fonte:</strong> <a href="https://www.planalto.gov.br/ccivil_03/leis/l7716.htm" rel="noopener noreferrer" target="_blank" title="Abrir fonte em nova aba">Brasil: Lei do Racismo</a>.</p></div><div class="law-card"><h3 class="subheading">Estatuto da Igualdade Racial</h3><p class="responsive-paragraph"><span class="reading-chunk">O Estatuto da Igualdade Racial busca combater desigualdades históricas e promover oportunidades para a população negra brasileira. Ele incentiva a criação de políticas públicas em diferentes áreas, incluindo educação, cultura, esporte e lazer.</span> <span class="reading-chunk">Sua proposta é contribuir para que todas as pessoas tenham melhores condições de acesso e participação nesses espaços. <strong>Por que é importante?</strong> Porque reconhece que combater o racismo também significa enfrentar desigualdades e ampliar oportunidades.</span></p><p class="source-line"><strong>Fonte:</strong> <a href="https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12288.htm" rel="noopener noreferrer" target="_blank" title="Abrir fonte em nova aba">Brasil: Estatuto da Igualdade Racial</a>.</p></div><div class="law-card"><h3 class="subheading">Lei de Combate à Injúria Racial</h3><p class="responsive-paragraph"><span class="reading-chunk">Essa legislação trouxe uma mudança importante: a injúria racial passou a ser tratada como crime de racismo. A injúria racial acontece quando uma pessoa é ofendida por motivos relacionados à sua raça, cor, etnia ou origem nacional.</span> <span class="reading-chunk">Essas ofensas também podem ocorrer durante atividades esportivas. A legislação estabelece pena de prisão e multa para a injúria racial. Também prevê, em determinadas situações de racismo praticado em atividades esportivas abertas ao público, a proibição de frequentar locais destinados a essas atividades.</span> <span class="reading-chunk"><strong>Por que é importante?</strong> Porque fortalece a responsabilização de quem pratica ofensas e outros atos racistas.</span></p><p class="source-line"><strong>Fonte:</strong> <a href="https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14532.htm" rel="noopener noreferrer" target="_blank" title="Abrir fonte em nova aba">Brasil: Legislação de Combate à Injúria Racial</a>.</p></div><div class="law-card"><h3 class="subheading">Lei Geral do Esporte</h3><p class="responsive-paragraph"><span class="reading-chunk">A Lei Geral do Esporte estabelece normas para a organização e o funcionamento do esporte brasileiro. Ela reconhece a importância do acesso às práticas esportivas e da igualdade de condições, além de abordar questões como segurança, prevenção da violência e combate à discriminação.</span> <span class="reading-chunk"><strong>Por que é importante?</strong> Porque contribui para estabelecer direitos e responsabilidades na organização das atividades esportivas.</span></p><p class="source-line"><strong>Fonte:</strong> <a href="https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14597.htm" rel="noopener noreferrer" target="_blank" title="Abrir fonte em nova aba">Brasil: Lei Geral do Esporte</a>.</p></div><div class="conclusion-card"><h3 class="subheading">O que essas leis têm em comum?</h3><p class="responsive-paragraph"><span class="reading-chunk">Embora possuam objetivos diferentes, todas contribuem para a proteção de direitos. Algumas estabelecem punições para atitudes racistas, enquanto outras procuram ampliar oportunidades e melhorar as condições de participação no esporte.</span> <span class="reading-chunk">Juntas, elas mostram que <strong>combater o racismo envolve tanto responsabilizar os agressores quanto enfrentar as desigualdades que favorecem a discriminação.</strong></span></p></div></section><section aria-label="Seção 4 de 7" class="article-section" data-chapter="04" id="secao-4"><h2 class="section-heading">4. As políticas de combate ao racismo no esporte</h2><p class="responsive-paragraph"><span class="reading-chunk">As leis são fundamentais, mas como garantir que elas produzam resultados? É nesse momento que entram as políticas públicas. Enquanto as leis estabelecem direitos e obrigações, as políticas públicas organizam ações do governo para enfrentar problemas da sociedade. No esporte, essas iniciativas podem atuar de diferentes maneiras.</span></p><h3 class="subheading">Prevenção e conscientização</h3><p class="responsive-paragraph"><span class="reading-chunk">Campanhas educativas, palestras e materiais informativos ajudam a explicar o que é racismo, como reconhecer atitudes discriminatórias e quais direitos devem ser respeitados.</span> <span class="reading-chunk">Essas ações podem alcançar atletas, treinadores, profissionais, torcedores e outras pessoas envolvidas nas atividades esportivas.</span></p><h3 class="subheading">Denúncias e proteção das vítimas</h3><p>Os canais de denúncia permitem comunicar situações de discriminação às instituições e autoridades competentes. A partir dessas denúncias, os casos podem ser investigados, e as vítimas podem receber orientação e encaminhamento para os serviços responsáveis.</p><h3 class="subheading">Responsabilização dos envolvidos</h3><p class="responsive-paragraph"><span class="reading-chunk">Dependendo da situação, os responsáveis por atos racistas podem sofrer consequências criminais previstas na legislação brasileira. As organizações esportivas também podem aplicar medidas disciplinares, conforme seus próprios regulamentos.</span> <span class="reading-chunk">Essas punições possuem procedimentos diferentes daqueles utilizados pela Justiça.</span></p><h3 class="subheading">Ações do governo brasileiro</h3><p>O governo brasileiro também desenvolve iniciativas para enfrentar o racismo de maneira mais ampla.</p><h4 class="policy-heading"><strong>Acordo de cooperação contra o racismo no esporte (2025)</strong></h4><p class="responsive-paragraph"><span class="reading-chunk">Em março de 2025, o Ministério do Esporte e o Ministério da Igualdade Racial firmaram um acordo de cooperação voltado ao combate à discriminação no esporte.</span> <span class="reading-chunk">A iniciativa envolve áreas como educação, inclusão social, comunicação, acesso à justiça e proteção dos direitos das pessoas que participam de atividades esportivas.</span></p><p class="source-line"><strong>Fonte:</strong> <a href="https://www.gov.br/esporte/pt-br/noticias-e-conteudos/esporte/governo-federal-lanca-iniciativa-para-combate-ao-racismo-no-esporte" rel="noopener noreferrer" target="_blank" title="Abrir fonte em nova aba">Ministério do Esporte: Governo Federal lança iniciativa para combate ao racismo no esporte</a>.</p><h4 class="policy-heading"><strong>Marco Orientador da Ética no Esporte (2026)</strong></h4><p class="responsive-paragraph"><span class="reading-chunk">Em novembro de 2026, o Ministério do Esporte lançou um documento com diretrizes para enfrentar a discriminação, a violência e outras práticas prejudiciais ao ambiente esportivo.</span> <span class="reading-chunk">O material procura orientar atletas, gestores e organizações sobre comportamentos éticos e responsabilidades na prática esportiva.</span></p><p class="source-line"><strong>Fonte:</strong> <a href="https://www.gov.br/esporte/pt-br/noticias/ministerio-do-esporte-lanca-marco-orientador-da-etica-no-esporte" rel="noopener noreferrer" target="_blank" title="Abrir fonte em nova aba">Ministério do Esporte: lançamento do Marco Orientador da Ética no Esporte</a>.</p><p>Essas iniciativas demonstram que o combate ao racismo exige a participação de diferentes instituições, desde a criação de políticas até sua aplicação nas atividades esportivas.</p></section><section aria-label="Seção 5 de 7" class="article-section" data-chapter="05" id="secao-5"><h2 class="section-heading">5. Os desafios para combater o racismo e o papel da Educação Física</h2><p class="responsive-paragraph"><span class="reading-chunk">O Brasil possui leis e iniciativas de combate ao racismo, mas isso não significa que o problema esteja resolvido. <strong>Se existem tantas medidas, por que o racismo ainda acontece?</strong></span> <span class="reading-chunk">Uma das dificuldades está em garantir que as regras sejam cumpridas e que as denúncias recebam a atenção necessária. Além disso, o preconceito está relacionado a comportamentos e desigualdades históricas que não desaparecem imediatamente com a criação de leis.</span> <span class="reading-chunk">Outro desafio é compreender se as medidas realmente funcionam. Para isso, é importante acompanhar os resultados das políticas, identificar problemas e buscar melhorias.</span></p><h3 class="subheading">A importância da Educação Física</h3><p class="responsive-paragraph"><span class="reading-chunk">A Educação Física possui uma relação direta com esse assunto, pois trabalha com esportes, jogos, danças, lutas e outras manifestações da cultura corporal. Durante as aulas, os estudantes vivenciam situações de cooperação, competição e convivência.</span> <span class="reading-chunk">Essas atividades oferecem oportunidades para discutir preconceitos, reconhecer atitudes discriminatórias e aprender a respeitar os direitos das outras pessoas.</span> <span class="reading-chunk">A disciplina também contribui para valorizar manifestações culturais afro-brasileiras, como a capoeira, reconhecendo sua história e importância para a cultura brasileira.</span> <span class="reading-chunk">As escolas e os professores também possuem responsabilidades no enfrentamento da discriminação. Isso envolve orientar os estudantes, acolher possíveis vítimas e garantir que as atividades esportivas sejam realizadas em um ambiente respeitoso e inclusivo.</span></p><h3 class="subheading">O que podemos concluir?</h3><p class="responsive-paragraph"><span class="reading-chunk">O combate ao racismo no esporte depende de leis, políticas públicas e instituições comprometidas com sua aplicação. Entretanto, também exige mudanças na maneira como as pessoas convivem e reconhecem os direitos umas das outras.</span> <span class="reading-chunk">A Educação Física contribui para esse processo ao proporcionar experiências que valorizam a diversidade cultural, a participação e o respeito.</span> <span class="reading-chunk"><strong>Um esporte verdadeiramente justo deve oferecer a todas as pessoas oportunidades de participar e se desenvolver sem sofrer discriminação racial.</strong></span></p><p class="source-line"><strong>Fontes:</strong> <a href="https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12288.htm" rel="noopener noreferrer" target="_blank" title="Abrir fonte em nova aba">Brasil: Estatuto da Igualdade Racial</a> e <a href="https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14597.htm" rel="noopener noreferrer" target="_blank" title="Abrir fonte em nova aba">Brasil: Lei Geral do Esporte</a>.</p></section><section aria-label="Seção 6 de 7" class="article-section" data-chapter="06" id="secao-6"><h2 class="section-heading">6. Referências</h2><p><strong>Brasil.</strong> <a href="https://www.planalto.gov.br/ccivil_03/leis/l7716.htm" rel="noopener noreferrer" target="_blank" title="Abrir fonte em nova aba">Lei do Racismo</a>. Define os crimes resultantes de preconceito de raça ou de cor.</p><p><strong>Brasil.</strong> <a href="https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12288.htm" rel="noopener noreferrer" target="_blank" title="Abrir fonte em nova aba">Estatuto da Igualdade Racial</a>. Institui medidas para promover a igualdade de oportunidades e combater a discriminação racial.</p><p><strong>Brasil.</strong> <a href="https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14532.htm" rel="noopener noreferrer" target="_blank" title="Abrir fonte em nova aba">Legislação de Combate à Injúria Racial</a>. Altera a legislação brasileira para tipificar a injúria racial como crime de racismo.</p><p><strong>Brasil.</strong> <a href="https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14597.htm" rel="noopener noreferrer" target="_blank" title="Abrir fonte em nova aba">Lei Geral do Esporte</a>. Institui normas para a organização e o funcionamento do esporte brasileiro.</p><p><strong>Ministério do Esporte.</strong> <a href="https://www.gov.br/esporte/pt-br/noticias-e-conteudos/esporte/governo-federal-lanca-iniciativa-para-combate-ao-racismo-no-esporte" rel="noopener noreferrer" target="_blank" title="Abrir fonte em nova aba">Governo Federal lança iniciativa para combate ao racismo no esporte</a>. 26 de março de 2025.</p><p><strong>Ministério do Esporte.</strong> <a href="https://www.gov.br/esporte/pt-br/noticias/ministerio-do-esporte-lanca-marco-orientador-da-etica-no-esporte" rel="noopener noreferrer" target="_blank" title="Abrir fonte em nova aba">Ministério do Esporte lança Marco Orientador da Ética no Esporte</a>. 9 de novembro de 2026.</p></section><section aria-label="Seção 7 de 7" class="article-section" data-chapter="07" id="secao-7"><h2 class="section-heading">7. Sobre nós</h2><p class="responsive-paragraph"><span class="reading-chunk">Somos estudantes da turma <strong>11 Informática</strong>, do Curso Técnico em Informática Integrado ao Ensino Médio, do Instituto Federal Farroupilha, Campus São Borja.</span> <span class="reading-chunk">Este trabalho foi desenvolvido para a disciplina de Educação Física, como parte da Mostra-Exposição de Cultura Corporal Afro-Brasileira. Escolhemos pesquisar as políticas de combate ao racismo no esporte para compreender como a legislação brasileira, as políticas públicas e a educação contribuem para enfrentar a discriminação racial.</span> <span class="reading-chunk">Nosso objetivo é compartilhar essas informações de maneira clara e acessível, incentivando a reflexão sobre a importância do respeito, da igualdade e da inclusão nas práticas esportivas. <strong>Integrantes:</strong></span> <span class="reading-chunk">Luis Henrique Ocampos Pinarello, Leonidas Dobler Neto, João Gabriel de Melo Lencina, Gustavo Merkel Buchmaier e Pedro Henrique Pinto.</span></p></section></article>
+</main>
+<button aria-label="Voltar ao início" class="back-to-top" id="back-to-top" title="Voltar ao início" type="button">↑</button>
+<script>
+(() => {
+  'use strict';
+  const root = document.documentElement;
+  const buttons = {
+    theme: document.getElementById('theme-button'),
+    increase: document.getElementById('font-increase'),
+    decrease: document.getElementById('font-decrease'),
+    reset: document.getElementById('font-reset'),
+    top: document.getElementById('back-to-top')
+  };
+  const themeIcon = document.getElementById('theme-icon');
+  const themeLabel = document.getElementById('theme-label');
+  const progress = document.getElementById('reading-bar');
+  const progressTrack = document.getElementById('reading-track');
+  const sectionStatus = document.getElementById('section-status');
+  const themeMeta = document.querySelector('meta[name="theme-color"]');
+  const sections = [...document.querySelectorAll('.article-section')];
+  const KEYS = { theme:'pesquisa-racismo-tema', scale:'pesquisa-racismo-tamanho' };
+  const getSetting = key => { try {return localStorage.getItem(key);} catch {return null;} };
+  const setSetting = (key, val) => { try {localStorage.setItem(key, val);} catch {} };
+  const prefersDark = matchMedia('(prefers-color-scheme: dark)');
+  const prefersReduced = matchMedia('(prefers-reduced-motion: reduce)');
+  const applyTheme = (value, persist=true) => {
+    const dark = value === 'escuro';
+    root.dataset.theme = dark ? 'escuro' : 'claro';
+    themeIcon.textContent = dark ? '☀' : '☾';
+    themeLabel.textContent = dark ? 'Claro' : 'Escuro';
+    buttons.theme.setAttribute('aria-label', dark ? 'Ativar tema claro' : 'Ativar tema escuro');
+    buttons.theme.setAttribute('aria-pressed', String(dark));
+    themeMeta.setAttribute('content', dark ? '#1b1b1e' : '#ffffff');
+    if (persist) setSetting(KEYS.theme, dark ? 'escuro' : 'claro');
+  };
+  let scale = parseFloat(getSetting(KEYS.scale) || '1');
+  if (!Number.isFinite(scale)) scale = 1;
+  const applyScale = value => {
+    scale = Math.max(.8,Math.min(1.5,Math.round(value*10)/10));
+    root.style.setProperty('--reader-scale', String(scale));
+    buttons.decrease.disabled = scale <= .8;
+    buttons.increase.disabled = scale >= 1.5;
+    buttons.reset.textContent = Math.round(scale*100) + '%';
+    buttons.reset.setAttribute('aria-label', `Tamanho da fonte ${Math.round(scale*100)}%. Restaurar para 100%`);
+    setSetting(KEYS.scale, String(scale));
+    requestTick();
+  };
+  buttons.theme.addEventListener('click', () => applyTheme(root.dataset.theme === 'escuro' ? 'claro' : 'escuro'));
+  buttons.decrease.addEventListener('click', () => applyScale(scale-.1));
+  buttons.increase.addEventListener('click', () => applyScale(scale+.1));
+  buttons.reset.addEventListener('click', () => applyScale(1));
+  buttons.top.addEventListener('click', () => window.scrollTo({top:0, behavior:prefersReduced.matches?'auto':'smooth'}));
+  const storedTheme = getSetting(KEYS.theme);
+  applyTheme(storedTheme === 'claro' || storedTheme === 'escuro' ? storedTheme : prefersDark.matches ? 'escuro':'claro', false);
+  prefersDark.addEventListener?.('change', e => {if (!getSetting(KEYS.theme)) applyTheme(e.matches?'escuro':'claro',false);});
+  let ticking = false;
+  function requestTick() {
+    if (!ticking) {ticking = true; requestAnimationFrame(updateReading);}
+  }
+  function updateReading() {
+    ticking = false;
+    const max = Math.max(1,document.documentElement.scrollHeight-innerHeight);
+    const percent = Math.max(0,Math.min(100,(scrollY / max)*100));
+    progress.style.width = percent.toFixed(1)+'%';
+    progressTrack.setAttribute('aria-valuenow', String(Math.round(percent)));
+    progressTrack.setAttribute('aria-valuetext', `${Math.round(percent)}% da leitura`);
+    buttons.top.classList.toggle('is-visible', scrollY>420);
+    let active = 0;
+    const threshold = Math.max(130,innerHeight*.24);
+    sections.forEach((section,index) => {
+      if (section.getBoundingClientRect().top <= threshold) active=index;
+    });
+    sectionStatus.textContent = `Seção ${active+1} de ${sections.length}`;
+    sections.forEach((section,index)=>section.classList.toggle('is-active',index===active));
+  }
+  document.addEventListener('scroll', requestTick, {passive:true});
+  window.addEventListener('resize',requestTick,{passive:true});
+  applyScale(scale);
+  requestTick();
+})();
+  </script>
+</body>
+</html>
