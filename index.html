@@ -5,16 +5,16 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
-<meta content="#ffffff" name="theme-color"/>
+<meta content="#d3d4d7" name="theme-color"/>
 <meta content="Pesquisa de Educação Física sobre políticas de combate ao racismo no esporte e legislação brasileira." name="description"/>
 <title>Políticas de Combate ao Racismo no Esporte</title>
 <style>/* Layout editorial leve: leitura longa com hierarquia visual discreta. */
 :root {
   color-scheme: light;
-  --bg: #f6f6f6; --paper: #ffffff; --muted: #fafafa;
+  --bg: #d3d4d7; --paper: #e9e9ec; --muted: #dfe0e3;
   --ink: #2a2a2d; --heading: #1f2024; --secondary: #666970;
-  --border: #dedfe2; --accent: #ad263e; --accent-hover: #871a30;
-  --control: #ffffff; --reader-scale: 1; --base-size: 18px;
+  --border: #c5c7cb; --accent: #ad263e; --accent-hover: #871a30;
+  --control: #e9e9ec; --reader-scale: 1; --base-size: 18px;
 }
 :root[data-theme="escuro"] {
   color-scheme: dark;
@@ -157,10 +157,10 @@ button:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outlin
     const dark = value === 'escuro';
     root.dataset.theme = dark ? 'escuro' : 'claro';
     themeIcon.textContent = dark ? '☀' : '☾';
-    themeLabel.textContent = dark ? 'Claro' : 'Escuro';
-    buttons.theme.setAttribute('aria-label', dark ? 'Ativar tema claro' : 'Ativar tema escuro');
+    themeLabel.textContent = dark ? 'Cinza' : 'Escuro';
+    buttons.theme.setAttribute('aria-label', dark ? 'Ativar tema cinza' : 'Ativar tema escuro');
     buttons.theme.setAttribute('aria-pressed', String(dark));
-    themeMeta.setAttribute('content', dark ? '#1b1b1e' : '#ffffff');
+    themeMeta.setAttribute('content', dark ? '#1b1b1e' : '#d3d4d7');
     if (persist) setSetting(KEYS.theme, dark ? 'escuro' : 'claro');
   };
   let scale = parseFloat(getSetting(KEYS.scale) || '1');
